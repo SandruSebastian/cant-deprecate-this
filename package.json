@@ -2,7 +2,7 @@
   "name": "hamburger-menu",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sandrusebastian.com",
+  "homepage": "https://SandruSebastian.github.io/cant-deprecate-this",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@types/jest": "^27.4.0",
