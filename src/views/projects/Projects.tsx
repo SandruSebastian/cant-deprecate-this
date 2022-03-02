@@ -18,7 +18,6 @@ export default function Projects(): ReactElement {
                         key={index}
                         onClick={() => {
                             setProject(el);
-                            window.location.href = url + '#';
                             window.location.href = url + '#popup-article';
                         }}
                     >

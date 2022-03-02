@@ -1,4 +1,4 @@
-import contract from '../../resources/images/avatar-898c170f2dc71e20d0d6f04bf7468ff1.webp';
+import contract from '../../resources/images/avatar.webp';
 import React from 'react';
 
 export default function Home() {
