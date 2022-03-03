@@ -1,9 +1,8 @@
 import React, {useEffect} from 'react';
 import './App.css';
 import Header from './components/header/Header';
-import ReactGA, {initialize} from 'react-ga';
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {Switch, Route, BrowserRouter} from 'react-router-dom';
 import ContactPage from './views/contact/Contact';
 import Projects from './views/projects/Projects';
 import Footer from './components/footer/Footer';
@@ -18,7 +17,7 @@ export default function App() {
     }, [])
 
     return (
-        <Router>
+        <BrowserRouter>
             <div className="App">
                 <Header />
                 <div className="container">
@@ -33,6 +32,6 @@ export default function App() {
                 </div>
                 <Footer />
             </div>
-        </Router>
+        </BrowserRouter>
     );
 }
